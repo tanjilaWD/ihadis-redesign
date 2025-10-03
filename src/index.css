@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     background-color: rgb(236, 227, 244);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 .container{
     max-width: 1400px;
@@ -15,11 +19,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .header_Container .logo_container{
     display: flex;
     align-items: center;
-    gap:10px
+    gap:10px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#34AB82;
 }
 .header_Container .menu_container ul,
 .btn_container ul{
@@ -36,3 +44,45 @@
 .btn_container ul{
     text-decoration: none;
 }
+.header_Container .menu_container li a{
+    color:#333333;
+    font-size: 15px;
+    font-weight: 400;
+}
+.header_Container .menu_container .menu_btn a{
+    color: #ffffff;
+    background-color: #34AB82;
+    padding: 12px 14px;
+    border-radius: 10px;
+}
+.header_Container .menu_container .menu_btn img{
+    background-color: #34AB82;
+    padding-right: 5px;
+}
+.header_Container .btn_container ul li a{
+    text-decoration: none;
+    font-weight: 15px;
+    font-weight: 400;
+}
+.header_Container .btn_container .btn1 a{
+    color:#fff;
+    background-color: #EF2950;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+.header_Container .btn_container .btn1 img{
+     background-color: #EF2950;
+}
+.header_Container .btn_container .btn2{
+    color:#2B9E76;
+    border: 2px solid #2B9E76;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+.header_Container .btn_container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+

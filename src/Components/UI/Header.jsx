@@ -12,7 +12,7 @@ const Header = () => {
 
                     <div className="menu_container">
                         <ul>
-                            <li><a href="#"><img src="../../public/image/header/home.png" alt="image"/>হোম </a></li>
+                            <li className="menu_btn"><a href="#"><img src="../../public/image/header/home.png" alt="image"/>হোম </a></li>
                             <li><a href="#">হাদিসে যান </a></li>
                             <li><a href="#">হাদিস গ্রন্থসমূহ </a></li>
                             <li><a href="#">আমাদের প্রজেক্ট</a></li>
@@ -21,9 +21,9 @@ const Header = () => {
 
                     <div className="btn_container">
                         <ul>
-                            <li><a href="#"><img src="../../public/image/header/darkMode.png" alt="Image" /></a></li>
-                            <li><a href="#">সাপোর্ট করুন <img src="../../public/image/header/Frame.png" alt="" /></a></li>
-                            <li><a href="#">ডাউনলোড করুন</a></li>
+                            <li className="btn3"><a href="#"><img src="../../public/image/header/darkMode.png" alt="Image" /></a></li>
+                            <li className="btn1"><a href="#">সাপোর্ট করুন <img src="../../public/image/header/Frame.png" alt="" /></a></li>
+                            <li className="btn2"><a href="#">ডাউনলোড করুন</a></li>
                         </ul>
                     </div>
 
