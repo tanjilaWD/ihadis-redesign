@@ -85,4 +85,9 @@
     justify-content: center;
     gap: 20px;
 }
-
+.header_Container .menu_container li a:hover{
+    color:grey
+}
+.menu_container ul li:first-child a:hover {
+    color: #fff;
+}
