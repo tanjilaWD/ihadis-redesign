@@ -2,7 +2,7 @@
 const Header = () => {
     return (
         <div>
-            <section className="header">
+            <section className="container">
                 <div className="header_Container">
 
                     <div className="logo_container">
@@ -17,13 +17,17 @@ const Header = () => {
                             <li><a href="#">হাদিস গ্রন্থসমূহ </a></li>
                             <li><a href="#">আমাদের প্রজেক্ট</a></li>
                         </ul>
-
                     </div>
+
                     <div className="btn_container">
-
+                        <ul>
+                            <li><a href="#"><img src="../../public/image/header/darkMode.png" alt="Image" /></a></li>
+                            <li><a href="#">সাপোর্ট করুন <img src="../../public/image/header/Frame.png" alt="" /></a></li>
+                            <li><a href="#">ডাউনলোড করুন</a></li>
+                        </ul>
                     </div>
-                </div>
 
+                </div>
             </section>
         </div>
     );
