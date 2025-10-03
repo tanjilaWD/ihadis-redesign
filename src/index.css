@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
-    background-color: rgb(236, 227, 244);
+    /* background-color: rgb(236, 227, 244); */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -79,6 +79,9 @@
     padding: 8px 10px;
     border-radius: 10px;
 }
+.header_Container .btn_container .btn2 a{
+    color:#2B9E76;
+}
 .header_Container .btn_container ul li{
     display: flex;
     align-items: center;
@@ -88,6 +91,63 @@
 .header_Container .menu_container li a:hover{
     color:grey
 }
-.menu_container ul li:first-child a:hover {
-    color: #fff;
+.menu_container ul li:first-child a:hover{
+    color:#fff;
 }
+
+/* ----------------------------
+        Search_ber-section
+------------------------------*/
+.search_ber{
+    background-color:#17B686;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 150px;
+    margin-top: 25px;
+}
+.search_ber .search_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    width: 670px;
+    z-index: 10;
+    margin: 0 auto;
+}
+.search_ber .search_box input{
+    border: none;
+}
+.search_ber .filter_btn{
+    border: none;
+}
+.search_ber .search_btn{
+    border: none;
+}
+.search_ber .search{
+    display: flex;
+    gap: 5px;
+}
+.search_ber .search input{
+color:rgb(179, 177, 177);
+}
+.search_ber .search_box .arabic{
+  color:rgb(179, 177, 177);
+  justify-content: space-between;
+  opacity: 0.5;
+}
+.search_ber .search_box .filter_btn{
+    color:#17B686 ;
+    background-color: #fff;
+}
+.search_ber .search_box .search_btn{
+    color:#fff ;
+    background-color: #17B686;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+
