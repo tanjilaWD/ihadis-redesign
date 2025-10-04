@@ -50,7 +50,7 @@ const App_Store = () => {
                 </div>
 
                 <div className="store_right">
-                    <img src="../../public/image/app_store/mobile2.png" alt="Image" />
+                    <img className="store_img1" src="../../public/image/app_store/mobile2.png" alt="Image" />
                     <img src="../../public/image/app_store/mobile1.png" alt="Image" />
                 </div>
 
