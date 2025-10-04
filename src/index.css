@@ -220,13 +220,14 @@ color:rgb(179, 177, 177);
     color: #000000;
     padding-bottom: 20px;
 }
-.store .store_left .content_side .play{
+.store .store_left .play{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    /* justify-content: center; */
 }
-.store .store_left .content_side .play .apple{
+.store .store_left .apple{
     display: flex;
     align-items: center;
+
     
 }
