@@ -165,4 +165,68 @@ color:rgb(179, 177, 177);
     background-repeat: no-repeat;
 
 }
-
+/* ----------------------------
+        App_store-section
+------------------------------*/
+.app_store{
+    background-color:#F9FAFB ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.store{
+    width: 1222px;
+    /* height: 326px; */
+    margin: 0 auto;
+    background-color:#DCF2E9 ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #2B9E76;
+    border-radius: 15px;
+}
+.store .store_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 18px;
+}
+.store .store_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.store .store_left .image_side{
+    padding-right: 60px;
+}
+.store .store_left .content_side .cont h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.store .store_left .content_side .cont p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.store .store_left .content_side .img h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.store .store_left .content_side .play{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.store .store_left .content_side .play .apple{
+    display: flex;
+    align-items: center;
+    
+}

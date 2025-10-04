@@ -6,7 +6,7 @@ const App_Store = () => {
                 <div className="store_left">
 
                     <div className="image_side">
-                           <img className="screen_img" src="../../public/image/app_store/Screen.png" alt="Image" />
+                           <img className="Screen_img" src="../../public/image/app_store/Screen.png" alt="Image" />
                     </div>
 
                     <div className="content_side">
@@ -19,13 +19,20 @@ const App_Store = () => {
                             <h2>ডাউনলোড করুন <br />আল হাদিস মোবাইল আপ </h2>
                             <div className="play">
                                 <div className="apple">
-                                    <img src="../../public/image/app_store/WhiteBG.png" alt="Image" />
+                                   <div className="icon">
+                                        <img src="../../public/image/app_store/_Group_.png" alt="Image" />
+                                    </div>
+                                    <div className="text">
+                                        <img src="../../public/image/app_store/download.png" alt="Image" />
+                                        <img src="../../public/image/app_store/Group.png" alt="Image" />
+                                    </div>
                                 </div>
 
                                 <div className="google">
                                     <div className="icon">
                                         <img src="../../public/image/app_store/icon.png" alt="Image" />
                                     </div>
+
                                     <div className="text">
                                         <img src="../../public/image/app_store/get.png" alt="Image" />
                                         <img src="../../public/image/app_store/GooglePlay.png" alt="Image" />
@@ -33,17 +40,20 @@ const App_Store = () => {
                                     </div>
 
                                 </div>
+
                             </div>
 
                         </div>
 
                     </div>
 
+                </div>
 
-                </div>
                 <div className="store_right">
-                    
+                    <img src="../../public/image/app_store/mobile2.png" alt="Image" />
+                    <img src="../../public/image/app_store/mobile1.png" alt="Image" />
                 </div>
+
             </div>
 
         </section>
