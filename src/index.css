@@ -109,7 +109,7 @@
 .search_ber .search_box{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #fff;
     padding: 10px 12px;
     border-radius: 10px;
@@ -120,9 +120,9 @@
 .search_ber .search_box input{
     border: none;
 }
-.search_ber .filter_btn{
+/* .search_ber .filter_btn{
     border: none;
-}
+} */
 .search_ber .search_btn{
     border: none;
 }
@@ -135,12 +135,8 @@ color:rgb(179, 177, 177);
 }
 .search_ber .search_box .arabic{
   color:rgb(179, 177, 177);
-  justify-content: space-between;
   opacity: 0.5;
-}
-.search_ber .search_box .filter_btn{
-    color:#17B686 ;
-    background-color: #fff;
+  margin-left: -142px;
 }
 .search_ber .search_box .search_btn{
     color:#fff ;
