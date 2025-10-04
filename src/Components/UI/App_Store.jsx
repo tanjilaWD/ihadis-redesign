@@ -12,7 +12,7 @@ const App_Store = () => {
                     <div className="content_side">
                         <div className="cont">
                             <h2>আল হাদিস সাইটে আপনাকে স্বাগতম</h2>
-                            <p>আল হাদিস এপের মাধ্যমে হাদিস পড়া, বুকমার্ক, অনলাইন সিংকিং সহ আর ও অনেক কিছু সহজেই পারবেন।</p>
+                            <p>আল হাদিস এপের মাধ্যমে হাদিস পড়া, বুকমার্ক, অনলাইন সিংকিং সহ আর ও<br/>  অনেক কিছু সহজেই পারবেন।</p>
                         </div>
 
                         <div className="img">
@@ -51,7 +51,7 @@ const App_Store = () => {
 
                 <div className="store_right">
                     <img className="store_img1" src="../../public/image/app_store/mobile2.png" alt="Image" />
-                    <img src="../../public/image/app_store/mobile1.png" alt="Image" />
+                    <img className="store_img2" src="../../public/image/app_store/mobile1.png" alt="Image" />
                 </div>
 
             </div>

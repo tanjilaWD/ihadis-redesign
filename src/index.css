@@ -191,7 +191,7 @@ color:rgb(179, 177, 177);
     align-items: center;
     justify-content: center;
     padding: 8px 18px;
-    /* width: 724px; */
+    width: 820px;
 }
 .store .store_right{
     display: flex;
@@ -269,8 +269,18 @@ color:rgb(179, 177, 177);
 
 .text img:last-child {
   width: 90px; 
+}
+.store .store_right{
+    width: 480px;
+    margin-right: -17px;
 } 
-/* .store .store_right .store_img1{ */
+.store .store_right .store_img1{
+    z-index:5;
+    margin-right: -63px;
+}
+.store .store_right .store_img2{
+    z-index:3;
+}
 
 
 
