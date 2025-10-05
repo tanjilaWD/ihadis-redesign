@@ -3,6 +3,7 @@ import Books from "./Components/UI/Books";
 import Header from "./Components/UI/Header";
 import Remainder from "./Components/UI/Remainder";
 import Search_ber from "./Components/UI/Search_ber";
+import Subjectwise from "./Components/UI/Subjectwise";
 import Subscribe from "./Components/UI/Subscribe";
 
 
@@ -15,6 +16,7 @@ const App = () => {
       <Books/>
       <Remainder/>
       <Subscribe/>
+      <Subjectwise/>
     </div>
   );
 };
