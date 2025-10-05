@@ -281,7 +281,77 @@ color:rgb(179, 177, 177);
 .store .store_right .store_img2{
     z-index:3;
 }
-
-
-
-
+/* ----------------------------
+        Books-section
+------------------------------*/
+.book{
+    background-color:#F9FAFB ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 35px 25px 30px 25px
+}
+.book .book_heading{
+    text-align: center;
+}
+.book .book_heading h2{
+    color:#333333;
+    font-size: 40px;
+    font-weight: 400;
+}
+.book .book_heading p{
+    color:#333333;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 8px;
+    line-height:28px ;
+}
+.book .book_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     gap:30px;
+     padding-top: 50px;
+}
+.book .book_content .book_des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1.5px solid #066F4A;
+    border-radius: 24px;
+    padding: 15px;
+    background-color:#EEF9F8 ;
+}
+.book .book_content .book_des h3{
+    font-size:20px ;
+    font-weight: 400;
+    color:#333333 ;
+}
+.book .book_content .book_des p{
+    font-size:14px ;
+    font-weight: 400;
+    color:#737373 ;
+    padding-top: 15px;
+}
+.book .book_btn{
+    background-color:#2B9E76 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 10px;
+    gap: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.book .book_btn h4{
+    color: #FFFFFF;
+    font-size: 14px;
+   font-weight: 600;
+}
+.book .book_btn:hover{
+    background-color: #17B686;
+}
+/* ----------------------------
+        Books-section
+------------------------------*/
