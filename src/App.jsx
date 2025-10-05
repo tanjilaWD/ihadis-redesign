@@ -5,6 +5,7 @@ import Remainder from "./Components/UI/Remainder";
 import Search_ber from "./Components/UI/Search_ber";
 import Subjectwise from "./Components/UI/Subjectwise";
 import Subscribe from "./Components/UI/Subscribe";
+import Testimonial from "./Components/UI/Testimonial";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Remainder/>
       <Subscribe/>
       <Subjectwise/>
+      <Testimonial/>
     </div>
   );
 };

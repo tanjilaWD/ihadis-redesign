@@ -531,3 +531,11 @@ background: #F9FAFB;
 .wise_container .wise_btn:hover{
     background:#066F4A;
 }
+/* ----------------------------
+        Testimonial-section
+------------------------------*/
+.testContainer .testImage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin:0 auto;
+}
