@@ -353,5 +353,58 @@ color:rgb(179, 177, 177);
     background-color: #17B686;
 }
 /* ----------------------------
-        Books-section
+        Remainder-section
 ------------------------------*/
+.daily_remainder{
+    background-color:#F9FAFB ;
+    padding: 40px;
+    margin-top: 35px;
+}
+.daily_remainder .remainder_heading{
+    text-align: center;
+    font-size:22px;
+    font-weight: 400;
+    color:#333333;
+}
+.daily_remainder .box{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     padding-top: 50px;
+     gap:50px;
+     padding-bottom: 30px;
+}
+.daily_remainder .remainder_content{
+    background: #fff;
+    padding: 25px 25px 10px 25px;
+    border: 1px solid #737373;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.daily_remainder .remainder_content .image{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.daily_remainder .remainder_content .content h3{
+    color:#333333 ;
+    font-size:20px ;
+    font-weight:400;
+    padding-bottom: 15px;
+}
+.daily_remainder .remainder_content .content p{
+    color:#666666 ;
+    font-size:14px ;
+    font-weight:400;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+.daily_remainder .remainder_btn{
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   border: 2px solid #066F4A;
+   border-radius: 10px;
+   padding: 15px;
+   color: #333333;
+   font-size: 12px;
+   font-weight: 400;
+}
