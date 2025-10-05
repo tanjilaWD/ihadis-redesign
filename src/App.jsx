@@ -1,5 +1,6 @@
 import App_Store from "./Components/UI/App_Store";
 import Books from "./Components/UI/Books";
+import Footer from "./Components/UI/Footer";
 import Header from "./Components/UI/Header";
 import Remainder from "./Components/UI/Remainder";
 import Search_ber from "./Components/UI/Search_ber";
@@ -19,6 +20,7 @@ const App = () => {
       <Subscribe/>
       <Subjectwise/>
       <Testimonial/>
+      <Footer/>
     </div>
   );
 };

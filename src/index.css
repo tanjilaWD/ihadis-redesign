@@ -531,11 +531,39 @@ background: #F9FAFB;
 .wise_container .wise_btn:hover{
     background:#066F4A;
 }
+.wise_container{
+    padding-bottom: 30px;
+}
 /* ----------------------------
         Testimonial-section
 ------------------------------*/
+.testContainer{
+  margin: 40px;
+  background-color:#DCF2E9;
+  border-radius: 10px;
+}
+.testContainer h2{
+    text-align: center;
+    font-size:28px ;
+    font-weight:400 ;
+    color:#333333 ;
+}
+.testContainer p{
+    font-size:12px ;
+    font-weight:400 ;
+    color:#333333 ;
+    text-align: center;
+    padding-top: 10px;
+}
 .testContainer .testImage{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin:0 auto;
+    grid-template-columns: 1fr 1fr  1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding: 40px;
+    gap:30px;
+    text-align: center;
 }
+
+/* ----------------------------
+        Footer-section
+------------------------------*/
