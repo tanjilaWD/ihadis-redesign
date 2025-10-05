@@ -15,34 +15,47 @@ const Footer = () => {
             
                 <div className="footer_box2">
                     <h2>নেভিগেট</h2>
+                    <div className="box2">
                     <div className="box_left">
-                        <a href="#">হাদিস গ্রন্থসমূহ</a>
-                        <a href="#">বিষয়ভিত্তিক হাদিস</a>
-                        <a href="#">প্রাইভেসি পলিসি</a>
-                        <a href="#">সাপোর্ট করুন</a>
+                        <ul>
+                            <li><a href="#">হাদিস গ্রন্থসমূহ</a></li>
+                            <li><a href="#">বিষয়ভিত্তিক হাদিস</a></li>
+                            <li><a href="#">প্রাইভেসি পলিসি</a></li>
+                            <li><a href="#">সাপোর্ট করুন</a></li>
+                        </ul>
                     </div>
                     <div className="box_right">
-                        <a href="#">আমাদের প্রজেক্ট</a>
-                        <a href="#">তাহকিক</a>
-                        <a href="#">লেখক</a>
-                        <a href="#">ফেসবুক পেইজ</a>
+                        <ul>
+                            <li><a href="#">আমাদের প্রজেক্ট</a></li>
+                            <li><a href="#">তাহকিক</a></li>
+                            <li><a href="#">লেখক</a></li>
+                            <li><a href="#">ফেসবুক পেইজ</a></li>
+                        </ul>
+                    </div>
+                    </div>
                     </div>
 
-                </div>
                 <div className="footer_box3">
                     <h2>আমাদের প্রজেক্টসমূহ</h2>
                     <div className="box_3">
                         <div className="text">
-                            <a href="#">আল হাদিস</a>
-                            <a href="#">কুরআন মাজিদ</a>
-                            <a href="#">দোয়া ও রুকাইয়াহ</a>
-                            <a href="#">আইআরডি ফাউন্ডেশন</a>
+                            <ul>
+                                <li><a href="#">আল হাদিস</a></li>
+                                <li><a href="#">কুরআন মাজিদ</a></li>
+                                <li><a href="#">দোয়া ও রুকাইয়াহ</a></li>
+                                <li><a href="#">আইআরডি ফাউন্ডেশন</a></li>
+                            </ul>
                         </div>
-                        <div className="img">
-                            <img src="../../public/image/footer/img1.png" alt="image" />
-                            <img src="../../public/image/footer/img2.png" alt="image" />
-                            <img src="../../public/image/footer/img3.png" alt="image" />
-                            <img src="../../public/image/footer/img4.png" alt="image" />
+                       
+                           
+                       <div className="img">
+                            <ul>
+                                <li><a href="#"> <img src="../../public/image/footer/img1.png" alt="image" /></a></li>
+                                <li><a href="#"> <img src="../../public/image/footer/img2.png" alt="image" /></a></li>
+                                <li><a href="#"><img src="../../public/image/footer/img3.png" alt="image" /></a></li>
+                                <li><a href="#"><img src="../../public/image/footer/img4.png" alt="image" /></a></li>
+                            </ul>
+                            
                         </div>
                     </div>
 
@@ -50,13 +63,14 @@ const Footer = () => {
                 <div className="footer_box4">
                     <h2>জনপ্রিয় সাইটসমূহ</h2>
                     <div className="box_4">
-                       <a href="#">quran.com</a>
-                       <a href="#">sunnah.com</a>
-                       <a href="#">islamhouse.com</a>
-                       <a href="#">response-anti-islam</a>
+                       <ul>
+                        <li><a href="#">quran.com</a></li>
+                        <li><a href="#">sunnah.com</a></li>
+                        <li><a href="#">islamhouse.com</a></li>
+                        <li> <a href="#">response-anti-islam</a></li>
+                       </ul>
                     </div>
                 </div>
-
                 </div>
 
             </div>
