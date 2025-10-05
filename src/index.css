@@ -567,74 +567,74 @@ background: #F9FAFB;
 /* ----------------------------
         Footer-section
 ------------------------------*/
-.footer_container{
-    background-color:#F9FAFB ;
-    padding:40px 20px 15px 20px ;
-}
-.footer_container .topBox{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    gap:12px;
-}
-.footer_container .topBox h4{
-    font-size:22px ;
-    font-weight:400 ;
-    color:#34AB82 ;
-}
-.footer_container .Box{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-top: 40px;
-    gap:30px;
-}
-.footer_container .Box h2{
-    font-size:22px ;
-    font-weight:400 ;
-    color:#333333 ;
-    padding-bottom: 30px;
-}
-.footer_container .footer_box1{
-    font-size: 14px;
-    font-weight: 400;
-    color: #626D7D;
-    line-height: 25px;
-}
-.footer_container .footer_box2 .box_left ul,
-.box_right ul{
-    list-style:none ;
-}
-.footer_container .footer_box2 .box_left ul li a,
-.box_right ul li a{
-    text-decoration: none;
-}
-.footer_container .box2 {
-    display: flex;
-    justify-content: space-between;
-}
-.footer_container .box_3{
-    display: flex;
-    justify-content: space-between;
-}
-.footer_container .box_3 ul {
-    list-style: none;
-}
-.footer_container .box_3 ul li a {
-    text-decoration: none;
-}
-.footer_container .box_4 ul{
-    list-style: none;
-}
-.footer_container .box_4 ul li a {
-    text-decoration: none;
-}
-.footer_container .box_left a,
-.box_right a,
-.box_2 a,
-.box_3 a,
-.box_4 a{
- color:#626D7D;
- font-size: 12;
- font-weight: 400;
+
+.footer_section {
+  background: #F9FAFB;
+  padding: 40px 20px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
+.footer_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.footer_col h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.footer_col p {
+  font-size: 14px;
+  color: #626D7D;
+  line-height: 28px;
+}
+
+.footer_col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_col ul li {
+  font-size: 14px;
+  color: #626D7D;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer_col ul li:hover {
+  color: #3162ff;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.footer_logo img {
+  width: 35px;
+  height: 35px;
+}
+
+.footer_logo h3 {
+  color: #34AB82;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer_mosque {
+  margin-top: 20px;
+}
+
+.footer_mosque img {
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+}
