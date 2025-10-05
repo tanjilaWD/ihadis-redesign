@@ -459,3 +459,75 @@ color:rgb(179, 177, 177);
 .sub_container .sub_right .sub_btn:hover{
     background: #066F4A;
 }
+/* ----------------------------
+        SubjectWise-section
+------------------------------*/
+.subjectwise{
+background: #F9FAFB;
+}
+.wise_container .wiseContent{
+    text-align: center;
+    padding: 25px 35px 20px 35px;
+}
+.wise_container .wiseContent h2{
+    color:#333333 ;
+    font-size:30px ;
+    font-weight:400 ;
+    padding-bottom: 20px;
+}
+.wise_container .wiseContent p{
+    color:#333333 ;
+    font-size:16px ;
+    font-weight:400 ;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.wise_container .wiseImage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap:40px;
+}
+.wise_container .wiseBox{
+    display: flex;
+    justify-content: space-between;
+    background-color:#EEF9F8 ;
+    padding: 20px;
+    border-radius: 24px;
+    border: 1px solid #066F4A;
+}
+.wise_container .wiseBox h4{
+    font-size:20px ;
+    color: #333333;
+    font-weight: 400;
+}
+.wise_container .wiseBox p{
+    font-size:14px ;
+    color: #737373;
+    font-weight: 400;
+    padding-top: 8px;
+}
+.wise_container .wise_btn{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   border: none;
+   background-color: #2B9E76;
+   border-radius: 10px;
+   padding: 12px;
+   gap: 8px;
+   cursor: pointer;
+}
+.wise_container .wise_btn h4{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.wise_container .wise_btn:hover{
+    background:#066F4A;
+}
