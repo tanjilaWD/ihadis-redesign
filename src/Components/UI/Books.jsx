@@ -67,9 +67,9 @@ const Books = () => {
             </div>
 
             <button className="book_btn">
-                <img src="../../public/image/books/book5.png" alt="Book Image" />
+                <img src="../../public/image/books/Group.png" alt="Book Image" />
                 <h4>সকল হাদিস গ্রন্থসমূহ</h4>
-                <img src="../../public/image/books/book5.png" alt="Book Image" />
+                <img src="../../public/image/books/Frame.png" alt="Book Image" />
 
             </button>
 

@@ -8,7 +8,6 @@ const Search_ber = () => {
                 <input type="text" placeholder="হাদিস খুঁজুন..." />
                  </div>
                 <span className="arabic">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</span>
-                {/* <button className="filter_btn">☰</button> */}
                 <button className="search_btn"> Search</button>
             </div>
 
