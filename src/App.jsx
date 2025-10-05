@@ -3,6 +3,7 @@ import Books from "./Components/UI/Books";
 import Header from "./Components/UI/Header";
 import Remainder from "./Components/UI/Remainder";
 import Search_ber from "./Components/UI/Search_ber";
+import Subscribe from "./Components/UI/Subscribe";
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <App_Store/>
       <Books/>
       <Remainder/>
+      <Subscribe/>
     </div>
   );
 };
