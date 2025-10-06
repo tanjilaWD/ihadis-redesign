@@ -44,19 +44,19 @@ const Footer1 = () => {
   <ul>
     <li>
       <span>আল হাদিস</span>
-      <img src="footer/img1.png" alt="icon" />
+      <img src="../../public/image/footer/img1.png" alt="icon" />
     </li>
     <li>
       <span>কুরআন মালিক</span>
-      <img src="footer/img2.png" alt="icon" />
+     <img src="../../public/image/footer/img2.png" alt="icon" />
     </li>
     <li>
       <span>দোয়া ও রুকইয়াহ</span>
-      <img src="footer/img3.png" alt="icon" />
+     <img src="../../public/image/footer/img3.png" alt="icon" />
     </li>
     <li>
       <span>আইআরবি ফাউন্ডেশন</span>
-      <img src="footer/img4.png" alt="icon" />
+     <img src="../../public/image/footer/img4.png" alt="icon" />
     </li>
   </ul>
 </div>
