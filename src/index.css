@@ -646,6 +646,11 @@ background: #F9FAFB;
   width:90% ;
   margin: 0 auto;
 }
+.footer .logo h3{
+    font-size:22px ;
+    color:#34AB82 ;
+    font-weight:400 ;
+}
 .footer .logo{
   display: flex;
   text-align: center;
