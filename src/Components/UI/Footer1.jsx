@@ -5,7 +5,7 @@ const Footer1 = () => {
         <section className="footer_container">
     <div className="footer"> 
       <div className="logo">
-      <img src="../../public/image/footer/logo.png" alt="আল হাদিস" />
+      <img src="/Image/footer/logo.png" alt="আল হাদিস" />
       <h3>আল হাদিস</h3>
        </div>
 
@@ -44,19 +44,19 @@ const Footer1 = () => {
   <ul>
     <li>
       <span>আল হাদিস</span>
-      <img src="../../public/image/footer/img1.png" alt="icon" />
+      <img src="/Image/footer/img1.png" alt="icon" />
     </li>
     <li>
       <span>কুরআন মালিক</span>
-     <img src="../../public/image/footer/img2.png" alt="icon" />
+     <img src="/Image/footer/img2.png" alt="icon" />
     </li>
     <li>
       <span>দোয়া ও রুকইয়াহ</span>
-     <img src="../../public/image/footer/img3.png" alt="icon" />
+     <img src="/Image/footer/img3.png" alt="icon" />
     </li>
     <li>
       <span>আইআরবি ফাউন্ডেশন</span>
-     <img src="../../public/image/footer/img4.png" alt="icon" />
+     <img src="/Image/footer/img4.png" alt="icon" />
     </li>
   </ul>
 </div>

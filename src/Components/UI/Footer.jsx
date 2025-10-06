@@ -7,7 +7,7 @@ const Footer = () => {
      
       <div class="footer_col">
         <div class="footer_logo">
-          <img src="../../public/image/footer/logo.png" alt="আল হাদিস" />
+          <img src="/Image/footer/logo.png" alt="আল হাদিস" />
           <h3>আল হাদিস</h3>
         </div>
         <h4>হাদিস পড়ুন, শিখুন এবং জানুন</h4>
@@ -50,7 +50,7 @@ const Footer = () => {
           <li>response-anti-islam</li>
         </ul>
         <div class="footer_mosque">
-          <img src="../../public/image/footer/img5.png" alt="Mosque" />
+          <img src="/Image/footer/img5.png" alt="Mosque" />
         </div>
       </div>
 

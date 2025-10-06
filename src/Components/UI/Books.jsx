@@ -14,7 +14,7 @@ const Books = () => {
                         <p>হাদিসের রেঞ্জ ৭০৫৩</p>
                     </div>
                     <div className="book_img">
-                        <img src="../../public/image/books/book.png" alt="Book Image" />
+                        <img src="/Image/books/book.png" alt="Book Image" />
                     </div>
                 </div>
 
@@ -24,7 +24,7 @@ const Books = () => {
                         <p>হাদিসের রেঞ্জ ৭৪৫৩</p>
                     </div>
                     <div className="book_img">
-                        <img src="../../public/image/books/book1.png" alt="Book Image" />
+                        <img src="/Image/books/book1.png" alt="Book Image" />
                     </div>
                 </div>
                 <div className="book_des">
@@ -33,7 +33,7 @@ const Books = () => {
                         <p>হাদিসের রেঞ্জ ৫২৭৪</p>
                     </div>
                     <div className="book_img">
-                        <img src="../../public/image/books/book2.png" alt="Book Image" />
+                        <img src="/Image/books/book2.png" alt="Book Image" />
                     </div>
                 </div>
                 <div className="book_des">
@@ -42,7 +42,7 @@ const Books = () => {
                         <p>হাদিসের রেঞ্জ ১০২</p>
                     </div>
                     <div className="book_img">
-                        <img src="../../public/image/books/book3.png" alt="Book Image" />
+                        <img src="/Image/books/book3.png" alt="Book Image" />
                     </div>
                 </div>
                 <div className="book_des">
@@ -51,7 +51,7 @@ const Books = () => {
                         <p>হাদিসের রেঞ্জ ১৮৩২</p>
                     </div>
                     <div className="book_img">
-                        <img src="../../public/image/books/book4.png" alt="Book Image" />
+                        <img src="/Image/books/book4.png" alt="Book Image" />
                     </div>
                 </div>
                 <div className="book_des">
@@ -60,16 +60,16 @@ const Books = () => {
                         <p>হাদিসের রেঞ্জ ৪৩৪১</p>
                     </div>
                     <div className="book_img">
-                        <img src="../../public/image/books/book5.png" alt="Book Image" />
+                        <img src="/Image/books/book5.png" alt="Book Image" />
                     </div>
                 </div>
 
             </div>
 
             <button className="book_btn">
-                <img src="../../public/image/books/Group.png" alt="Book Image" />
+                <img src="/Image/books/Group.png" alt="Book Image" />
                 <h4>সকল হাদিস গ্রন্থসমূহ</h4>
-                <img src="../../public/image/books/Frame.png" alt="Book Image" />
+                <img src="/Image/books/Frame.png" alt="Book Image" />
 
             </button>
 

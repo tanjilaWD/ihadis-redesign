@@ -6,7 +6,7 @@ const App_Store = () => {
                 <div className="store_left">
 
                     <div className="image_side">
-                           <img className="Screen_img" src="../../public/image/app_store/Screen.png" alt="Image" />
+                           <img className="Screen_img" src="/Image/app_store/Screen.png" alt="Image" />
                     </div>
 
                     <div className="content_side">
@@ -20,22 +20,22 @@ const App_Store = () => {
                             <div className="play">
                                 <div className="apple">
                                    <div className="icon">
-                                        <img src="../../public/image/app_store/_Group_.png" alt="Image" />
+                                        <img src="/Image/app_store/_Group_.png" alt="Image" />
                                     </div>
                                     <div className="text">
-                                        <img src="../../public/image/app_store/download.png" alt="Image" />
-                                        <img src="../../public/image/app_store/Group.png" alt="Image" />
+                                        <img src="/Image/app_store/download.png" alt="Image" />
+                                        <img src="/Image/app_store/Group.png" alt="Image" />
                                     </div>
                                 </div>
 
                                 <div className="google">
                                     <div className="icon">
-                                        <img src="../../public/image/app_store/icon.png" alt="Image" />
+                                        <img src="/Image/app_store/icon.png" alt="Image" />
                                     </div>
 
                                     <div className="text">
-                                        <img src="../../public/image/app_store/get.png" alt="Image" />
-                                        <img src="../../public/image/app_store/GooglePlay.png" alt="Image" />
+                                        <img src="/Image/app_store/get.png" alt="Image" />
+                                        <img src="/Image/app_store/GooglePlay.png" alt="Image" />
 
                                     </div>
 
@@ -50,8 +50,8 @@ const App_Store = () => {
                 </div>
 
                 <div className="store_right">
-                    <img className="store_img1" src="../../public/image/app_store/mobile2.png" alt="Image" />
-                    <img className="store_img2" src="../../public/image/app_store/mobile1.png" alt="Image" />
+                    <img className="store_img1" src="/Image/app_store/mobile2.png" alt="Image" />
+                    <img className="store_img2" src="/Image/app_store/mobile1.png" alt="Image" />
                 </div>
 
             </div>

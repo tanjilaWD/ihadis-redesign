@@ -4,7 +4,7 @@ const Search_ber = () => {
             <div className="search_box">
 
                 <div className="search">
-                    <img src="../../public/image/search_ber/search.png" alt="Image" />
+                    <img src="/Image/search_ber/search.png" alt="Image" />
                 <input type="text" placeholder="হাদিস খুঁজুন..." />
                  </div>
                 <span className="arabic">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</span>

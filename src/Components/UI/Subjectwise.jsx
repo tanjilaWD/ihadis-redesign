@@ -16,7 +16,7 @@ const Subjectwise = () => {
                     <p>হাদিসের রেঞ্জ ৭</p>
                 </div>
                 <div className="wiseImg">
-                    <img src="../../public/image/wise/img.png" alt="Image" />
+                    <img src="/Image/wise/img.png" alt="Image" />
                 </div>
                 </div>
                 <div className="wiseBox">
@@ -25,7 +25,7 @@ const Subjectwise = () => {
                     <p>হাদিসের রেঞ্জ ৫</p>
                 </div>
                 <div className="wiseImg">
-                    <img src="../../public/image/wise/img1.png" alt="Image" />
+                    <img src="/Image/wise/img1.png" alt="Image" />
                 </div>
                 </div>
                 <div className="wiseBox">
@@ -34,7 +34,7 @@ const Subjectwise = () => {
                     <p>হাদিসের রেঞ্জ ১২</p>
                 </div>
                 <div className="wiseImg">
-                    <img src="../../public/image/wise/img2.png" alt="Image" />
+                    <img src="/Image/wise/img2.png" alt="Image" />
                 </div>
                 </div>
                 <div className="wiseBox">
@@ -43,7 +43,7 @@ const Subjectwise = () => {
                     <p>হাদিসের রেঞ্জ ৩১</p>
                 </div>
                 <div className="wiseImg">
-                    <img src="../../public/image/wise/img3.png" alt="Image" />
+                    <img src="/Image/wise/img3.png" alt="Image" />
                 </div>
                 </div>
                 <div className="wiseBox">
@@ -52,7 +52,7 @@ const Subjectwise = () => {
                     <p>হাদিসের রেঞ্জ ৩৮</p>
                 </div>
                 <div className="wiseImg">
-                    <img src="../../public/image/wise/img4.png" alt="Image" />
+                    <img src="/Image/wise/img4.png" alt="Image" />
                 </div>
                 </div>
                 <div className="wiseBox">
@@ -61,15 +61,15 @@ const Subjectwise = () => {
                     <p>হাদিসের রেঞ্জ ১</p>
                 </div>
                 <div className="wiseImg">
-                    <img src="../../public/image/wise/img5.png" alt="Image" />
+                    <img src="/Image/wise/img5.png" alt="Image" />
                 </div>
                 </div>
                 </div>
 
                 <button className="wise_btn">
-                <img src="../../public/image/wise/Vector.png" alt="Book Image" />
+                <img src="/Image/wise/Vector.png" alt="Book Image" />
                 <h4>সকল ক্যাটাগরি দেখুন</h4>
-                <img src="../../public/image/wise/Frame.png" alt="Book Image" />
+                <img src="/Image/wise/Frame.png" alt="Book Image" />
 
             </button>
         </div>

@@ -8,7 +8,7 @@ const Remainder = () => {
             <div className="box">
             <div className="remainder_content">
                 <div className="image">
-                <img src="../../public/image/remainder/picture.png" alt="Image" />
+                <img src="/Image/remainder/picture.png" alt="Image" />
             </div>
                <div className="content">
                     <h3>৪০ হাদিস</h3>
@@ -18,7 +18,7 @@ const Remainder = () => {
             </div>
             <div className="remainder_content">
                 <div className="image">
-                <img src="../../public/image/remainder/picture1.png" alt="Image" />
+                <img src="/Image/remainder/picture1.png" alt="Image" />
             </div>
                <div className="content">
                     <h3>আজকের দোয়া</h3>
@@ -31,7 +31,7 @@ const Remainder = () => {
             </div>
             <div className="remainder_content">
                 <div className="image">
-                <img src="../../public/image/remainder/picture2.png" alt="Image" />
+                <img src="/Image/remainder/picture2.png" alt="Image" />
             </div>
                <div className="content">
                     <h3>আজকের হাদিস</h3>
@@ -42,7 +42,7 @@ const Remainder = () => {
             </div>
             <div className="remainder_content">
                 <div className="image">
-                <img src="../../public/image/remainder/picture3.png" alt="Image" />
+                <img src="/Image/remainder/picture3.png" alt="Image" />
             </div>
                <div className="content">
                     <h3>আল্লাহর ৯৯ নামসমূহ</h3>
