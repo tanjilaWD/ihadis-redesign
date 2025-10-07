@@ -30,7 +30,7 @@ const App_Store = () => {
 
                                 <div className="google">
                                     <div className="icon">
-                                        <img src="/Image/app_store/icon.png" alt="Image" />
+                                        <img src="/Image/app_store/Icon.png" alt="Image" />
                                     </div>
 
                                     <div className="text">
