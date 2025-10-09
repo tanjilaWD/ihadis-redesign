@@ -151,7 +151,7 @@ color:rgb(179, 177, 177);
     left: 0;
     width: 300px;
     height: 100px;
-    background-image: url(../../public/image/search_ber/Frame.png);
+    background-image: url(/Image/search_ber/Frame.png);
     background-repeat: no-repeat;
 
 }
@@ -161,7 +161,7 @@ color:rgb(179, 177, 177);
     right: 0;
     width: 572px;
     height: 150px;
-    background-image: url(../../public/image/search_ber/grup.png);
+    background-image: url(/Image/search_ber/grup.png);
     background-repeat: no-repeat;
 
 }
